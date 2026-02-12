@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+/* Optional: Custom scrollbar to keep it looking like a terminal */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #064e3b; /* Dark green */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e; /* Bright green */
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  /* This ensures the green text doesn't look blurry on some monitors */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

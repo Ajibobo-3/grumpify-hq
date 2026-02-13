@@ -116,9 +116,9 @@ const App = () => {
                 <p className="text-[11px] opacity-70 leading-relaxed uppercase">Architect of the Grumpify HQ and scaling engine. Managing technical deployment and investor-readiness.</p>
               </div>
               <div className="mt-6">
-                <a href="#" className="text-[9px] text-green-500 underline hover:text-white transition-colors uppercase font-bold tracking-widest">
-                  Connect_Developer_Socials
-                </a>
+                <a href="https://x.com/Tundee_sunkanmi" target="_blank" rel="noopener noreferrer" className="text-[9px] text-green-500 underline hover:text-white transition-colors uppercase font-bold tracking-widest">
+  Connect_Developer_Socials
+</a>
               </div>
             </div>
           </div>
